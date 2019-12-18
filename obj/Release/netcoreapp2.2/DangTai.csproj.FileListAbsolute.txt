@@ -1,0 +1,14 @@
+/Users/tainguyen/Documents/NetCore/DangTai/bin/Release/netcoreapp2.2/DangTai.deps.json
+/Users/tainguyen/Documents/NetCore/DangTai/bin/Release/netcoreapp2.2/DangTai.runtimeconfig.json
+/Users/tainguyen/Documents/NetCore/DangTai/bin/Release/netcoreapp2.2/DangTai.runtimeconfig.dev.json
+/Users/tainguyen/Documents/NetCore/DangTai/bin/Release/netcoreapp2.2/DangTai.dll
+/Users/tainguyen/Documents/NetCore/DangTai/bin/Release/netcoreapp2.2/DangTai.pdb
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.csprojAssemblyReference.cache
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.csproj.CoreCompileInputs.cache
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.RazorAssemblyInfo.cache
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.RazorAssemblyInfo.cs
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.AssemblyInfoInputs.cache
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.AssemblyInfo.cs
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.RazorTargetAssemblyInfo.cache
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.dll
+/Users/tainguyen/Documents/NetCore/DangTai/obj/Release/netcoreapp2.2/DangTai.pdb

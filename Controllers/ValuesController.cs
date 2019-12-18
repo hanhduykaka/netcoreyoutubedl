@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using YoutubeExplode;
 using YoutubeExplode.Models.MediaStreams;
 
+
 namespace DangTai.Controllers
 {
     [Route("api/[controller]")]
@@ -22,25 +23,15 @@ namespace DangTai.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<MuxedStreamInfo>> GetAsync(string id)
+        public async Task<ActionResult> GetAsync(string id)
         {
 
-            var client = new YoutubeClient();
-
-            // Get metadata for all streams in this video
-            var streamInfoSet = await client.GetVideoMediaStreamInfosAsync(id);
-
-            // Select one of the streams, e.g. highest quality muxed stream
-            var streamInfo = streamInfoSet.Muxed.WithHighestVideoQuality();
-
-
-            //var ext = streamInfo.Container.GetFileExtension();
-
-            // Download stream to file
-          //  await client.DownloadMediaStreamAsync(streamInfo, $"downloaded_video.{ext}");
-
-
-            return streamInfo;
+         var client = new YoutubeClient(); //This should be initialized in YoutubeController constructor.
+            var mediaInfoSet = await client.GetVideoMediaStreamInfosAsync(id);
+            var mediaStreamInfo = mediaInfoSet.Audio.WithHighestBitrate();
+            var mimeType = $"audio/{mediaStreamInfo.Container.GetFileExtension()}";
+            var fileName = $"{id}.{mediaStreamInfo.Container.GetFileExtension()}";
+            return File(await client.GetMediaStreamAsync(mediaStreamInfo), mimeType, fileName, true);
         }
 
         // POST api/values

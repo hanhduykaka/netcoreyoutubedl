@@ -14,8 +14,9 @@ namespace DangTai
     {
         public static void Main(string[] args)
         {
+             AppContext.SetSwitch("System.Net.Http.UseSocketsHttpHandler", false);
             CreateWebHostBuilder(args).Build().Run();
-            AppContext.SetSwitch("System.Net.Http.UseSocketsHttpHandler", false);
+           
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

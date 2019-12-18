@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "LtGt/1.0.1": {
+      "LtGt/1.0.2": {
         "type": "package",
         "dependencies": {
           "Sprache": "2.2.0"
@@ -4466,10 +4466,10 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "YoutubeExplode/4.7.10": {
+      "YoutubeExplode/4.7.11": {
         "type": "package",
         "dependencies": {
-          "LtGt": "1.0.1",
+          "LtGt": "1.0.2",
           "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
@@ -4482,10 +4482,10 @@
     }
   },
   "libraries": {
-    "LtGt/1.0.1": {
-      "sha512": "+LdYZ+so6GiLqPmJkyWXp8phcO9q9HddwN3nixF7mLxzTQgHJ5jOeau07YsJm40zS9NxP6Dy15izKv0WJU4ruA==",
+    "LtGt/1.0.2": {
+      "sha512": "QMwaveAA5OSSboJWm5RCWW7INYxMHsUaNGqKgdW0zAvd04fRjB7JRosdf2P8WJNPF+cbjTU4PMaSSTJMKAa+XA==",
       "type": "package",
-      "path": "ltgt/1.0.1",
+      "path": "ltgt/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4495,7 +4495,7 @@
         "lib/netstandard1.0/LtGt.xml",
         "lib/netstandard2.0/LtGt.dll",
         "lib/netstandard2.0/LtGt.xml",
-        "ltgt.1.0.1.nupkg.sha512",
+        "ltgt.1.0.2.nupkg.sha512",
         "ltgt.nuspec"
       ]
     },
@@ -12161,20 +12161,21 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "YoutubeExplode/4.7.10": {
-      "sha512": "l8z/4XETATfsm2sI62ueg8EYlCxXDR+SBZwIoMd1RxNijXb+hzXC3d9A4GWbYk7inb0mxfyWpm2khVAmW/jvLg==",
+    "YoutubeExplode/4.7.11": {
+      "sha512": "amfPjGnqRd83Rmsl67PhwHxVIr51F/GDHLpQtrHDQWSG0q5PKkoTYcxGoQCDR0PRYNyZhwghIMoE5QXbNxPHhw==",
       "type": "package",
-      "path": "youtubeexplode/4.7.10",
+      "path": "youtubeexplode/4.7.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "favicon.png",
         "lib/net45/YoutubeExplode.dll",
         "lib/net45/YoutubeExplode.xml",
         "lib/netstandard1.1/YoutubeExplode.dll",
         "lib/netstandard1.1/YoutubeExplode.xml",
         "lib/netstandard2.0/YoutubeExplode.dll",
         "lib/netstandard2.0/YoutubeExplode.xml",
-        "youtubeexplode.4.7.10.nupkg.sha512",
+        "youtubeexplode.4.7.11.nupkg.sha512",
         "youtubeexplode.nuspec"
       ]
     }
@@ -12184,7 +12185,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "YoutubeExplode >= 4.7.10"
+      "YoutubeExplode >= 4.7.11"
     ]
   },
   "packageFolders": {
@@ -12245,7 +12246,7 @@
           },
           "YoutubeExplode": {
             "target": "Package",
-            "version": "[4.7.10, )"
+            "version": "[4.7.11, )"
           }
         },
         "imports": [
